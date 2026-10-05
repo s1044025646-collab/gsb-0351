@@ -1,0 +1,7 @@
+{
+  "t0Description": "2026-05-01 00:00 local, t in minutes",
+  "points": [
+    {"t": 0, "temp": 8}, {"t": 360, "temp": 12}, {"t": 720, "temp": 18},
+    {"t": 1080, "temp": 22}, {"t": 1440, "temp": 15}
+  ]
+}
