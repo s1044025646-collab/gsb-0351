@@ -1,0 +1,17 @@
+{
+  "originDescription": "2026-04-01T00:00:00+08:00 生长季起点（自由文本说明）",
+  "observations": [
+    { "minute": 0, "temp": 0 },
+    { "minute": 360, "temp": 6 },
+    { "minute": 720, "temp": 12 },
+    { "minute": 1080, "temp": 18 },
+    { "minute": 1440, "temp": 20 }
+  ],
+  "thresholds": { "baseTemp": 10, "upperTemp": 30 },
+  "stages": [
+    { "id": 1, "name": "发芽", "thresholdGdd": 1 },
+    { "id": 2, "name": "开花", "thresholdGdd": 5 },
+    { "id": 3, "name": "成熟", "thresholdGdd": 20 }
+  ],
+  "gapRule": { "maxIntervalMinutes": 1440 }
+}

@@ -1,0 +1,4 @@
+{
+  "thresholds": { "baseTemp": 5, "upperTemp": 25 },
+  "gapRule": { "maxIntervalMinutes": 720 }
+}
